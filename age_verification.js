@@ -1,15 +1,16 @@
-function age() {
-  console.log("How old are you?");
-}
+// var prompt = require('prompt');
+// prompt.start();
 
-def age
-  puts "How old are you?"
-  age = gets.chomp
-end
+// var x = prompt("Enter your age:");
+// console.log("You are " + x + " years old");
+
+var x = 22
+
+  if (x < 21) {
+    console.log("Sorry, you are not old enough.");
+  }
+  else {
+    console.log("Congratulations, you are old enough! What would you like to drink?");
+  }
 
 
-if age.to_i < 21
-  puts "Sorry, you are not old enough."
-else
-  puts "Great, you're old enough. What would you like to drink?"
-end
